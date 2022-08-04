@@ -3,6 +3,8 @@ Install plugins in managepackges
 publish over ssh 
 #####################################################################################################
 
+Accessing the Git repository by using git clone: https://github.com/SIVAKUMARDEPURU/cicd-docker.git
+
 Jenkins script
 rsync -avh /var/lib/jenkins/workspace/cicd-docker-job/* root@172.31.89.121[Private_Ip of Ansible server]:/opt
 
