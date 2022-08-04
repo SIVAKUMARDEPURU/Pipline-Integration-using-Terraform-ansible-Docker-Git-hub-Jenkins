@@ -1,7 +1,0 @@
--hosts: all
- tasks:
-    name: create deployment
-    shell: kuberenetes apply -f /opt/deployment.yml
-
-    name: create service
-    shell: kuberenetes apply -f /opt/service.yml
