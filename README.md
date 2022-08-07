@@ -20,5 +20,5 @@ Systemctl start jenkins
 Systemctlenable jenkins
 yum install git
 Ansible Server Configuration{Docker and Ansible}
-Amazon linux install ansible2
+sudo amazon-linux-extras install ansible2
 yum install docker
